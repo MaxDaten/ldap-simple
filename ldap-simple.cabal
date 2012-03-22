@@ -1,0 +1,16 @@
+name:           ldap-simple
+version:        0.0.1
+license:        BSD3
+license-file:   LICENSE
+author:         Jan-Philip Loos
+maintainer:     Jan-Philip Loos
+synopsis:       Extended LDAP library
+description:    Extended LDAP library
+category:       Network
+stability:      experimental
+cabal-version:  >= 1.10
+build-type:     Simple
+
+library
+    build-depends: base     >= 4        && < 5
+                 , LDAP     >= 0.6.6    && < 0.6.7
