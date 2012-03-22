@@ -1,5 +1,4 @@
 dist
-tests
 *:swp
 *.kate-swp
 *.swp.*
