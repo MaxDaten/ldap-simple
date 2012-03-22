@@ -9,10 +9,10 @@ import qualified Data.Digest.Pure.SHA as SHA
 import qualified Data.ByteString.Char8 as B
 import qualified Data.ByteString.Lazy.Char8 as L
 
-import Data.Text.Lazy.Encoding (encodeUtf8, decodeUtf8)
-import Data.ByteString.Base64 (encode, decodeLenient)
+import Data.Text.Lazy.Encoding (encodeUtf8)
+import Data.ByteString.Base64 (encode)
 import Data.ByteString.Lazy.Char8 (ByteString)
-import Data.Text.Lazy (Text, fromStrict)
+import Data.Text.Lazy (Text)
 
 import System.IO
 import System.Random
